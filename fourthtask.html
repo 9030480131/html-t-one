@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Text Input Control</title>
+   </head>
+	
+   <body>
+      <form >
+         First name: <input type = "text" name = "first_name" />
+         <br>
+         Last name: <input type = "text" name = "last_name" />
+      </form>
+   </body>
+	
+</html>
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Password Input Control</title>
+   </head>
+   
+   <body>
+      <form >
+         User ID : <input type = "text" name = "email_id" />
+         <br>
+         Password: <input type = "password" name = "password" />
+      </form>
+   </body>
+   
+</html>
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Multiple-Line Input Control</title>
+   </head>
+   
+   <body>
+      <form>
+         <textarea rows = "5" cols = "5" name = "description">
+            search here...
+         </textarea>
+      </form>
+   </body>
+   
+</html>
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Checkbox Control</title>
+   </head>
+   
+   <body>
+      <form>
+         <input type = "checkbox" name = "maths" value = "on"> Maths
+         <input type = "checkbox" name = "physics" value = "on"> Physics
+      </form>
+   </body>
+   
+</html>
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Radio Box Control</title>
+   </head>
+
+   <body>
+      <form>
+         <input type = "radio" name = "subject" value = "maths"> Maths
+         <input type = "radio" name = "subject" value = "physics"> Physics
+      </form>
+   </body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Select Box Control</title>
+   </head>
+   
+   <body>
+      <form>
+         <select name = "dropdown">
+            <option value = "Maths" selected>Maths</option>
+            <option value = "Physics">Physics</option>
+         </select>
+      </form>
+   </body>
+   
+</html>
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>File Upload Box</title>
+   </head>
+
+   <body>
+      <form>
+         <input type = "file" name = "fileupload" accept = "image/*" />
+      </form>
+   </body>
+   
+</html>
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>File Upload Box</title>
+   </head>
+   
+   <body>
+      <form>
+         <input type = "submit" name = "submit" value = "Submit" />
+         <input type = "reset" name = "reset"  value = "Reset" />
+         <input type = "button" name = "ok" value = "OK" />
+         <input type = "image" name = "imagebutton" src = "/html/images/logo.png" />
+      </form>
+   </body>
+   
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Autocomplete - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    var availableTags = [
+      "ActionScript",
+      "AppleScript",
+      "Asp",
+      "BASIC",
+      "C",
+      "C++",
+      "Clojure",
+      "COBOL",
+      "ColdFusion",
+      "Erlang",
+      "Fortran",
+      "Groovy",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Lisp",
+      "Perl",
+      "PHP",
+      "Python",
+      "Ruby",
+      "Scala",
+      "Scheme"
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  } );
+  </script>
+</head>
+<body>
+ 
+<div class="ui-widget">
+  <label for="tags">Tags: </label>
+  <input id="tags">
+</div>
+ 
+ 
+</body>
+</html>
+<label for="start">Start date:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2018-01-01" max="2018-12-31">
+       <label for="appt">Choose a time for your meeting:</label>
+
+<input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required>
+
+<small>Office hours are 9am to 6pm</small>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The input readonly attribute</h1>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="country">Country:</label>  
+  <input type="text" id="country" name="country" value="Norway" readonly><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:Tomato;">Tomato</h1>
+<h1 style="background-color:Orange;">Orange</h1>
+<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+<h1 style="background-color:Gray;">Gray</h1>
+<h1 style="background-color:SlateBlue;">SlateBlue</h1>
+<h1 style="background-color:Violet;">Violet</h1>
+<h1 style="background-color:LightGray;">LightGray</h1>
+
+</body>
+</html>
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+   <div class="row">
+        <div class="span12">
+            <form id="custom-search-form" class="form-search form-horizontal pull-right">
+                <div class="input-append span12">
+                    <input type="text" class="search-query" placeholder="Search">
+                    <button type="submit" class="btn"><i class="icon-search"></i></button>
+                </div>
+            </form>
+        </div>
+   </div>
+</div>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Display a Range Field</h1>
+
+<form action="/action_page.php">
+  <label for="vol">Volume (between 0 and 50):</label>
+  <input type="range" id="vol" name="vol" min="0" max="50">
+  <input type="submit">
+</form>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>File Upload Box</title>
+   </head>
+
+   <body>
+      <form>
+         
+         <input type = "submit" name = "submit" value = "Submit" />
+         <input type = "reset" name = "reset"  value = "Reset" />
+      </form>
+   </body>
+   
+</html>
